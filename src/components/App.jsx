@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import ToDoItem from "./ToDoItem";
 
 function App() {
-    let task = [];
     const [todo, setTodo] = useState("");
     const [items, setItems] = useState([]);
 
